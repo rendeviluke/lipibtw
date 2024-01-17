@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    background: url('../img/background.gif') no-repeat center;
+    background-size: 100%;
+    backdrop-filter: blur(4px);
+
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.flex-content .welcome-text {
+    position: absolute;
+    top: 15%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.welcome-text p {
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.flex-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 18rem;
+    height: 22rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.flex-card, .profile-pic {
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+
+.profile-pic img {
+    width: 100px;
+    border-radius: 60px;
+}
+
+.names {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 60px;
+}
+
+.names p {
+    padding: 12px;
+}
+
+.logo-area {
+    margin-top: 32px;
+    display: flex;
+    gap: 64px;
+}
+
+.logo img {
+    width: 42px;
+}
+
+#discord-username {
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+/* #discord-username:hover {
+
+} */

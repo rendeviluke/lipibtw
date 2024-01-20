@@ -26,9 +26,10 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.welcome-text p {
-    font-size: 1.8em;
+.welcome-text h1 {
     text-transform: uppercase;
+    font-weight: 100;
+    transition: 1s;
 }
 
 .flex-card {
@@ -78,4 +79,12 @@ body {
     font-size: 0.8em;
     text-decoration: none;
 }
-/* */
+
+@media (max-width: 568px) {
+    body {
+        background-size: 120%;
+    }
+    .welcome-text h1 {
+        font-size: 22px;
+    }
+}
